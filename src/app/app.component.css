@@ -1,0 +1,21 @@
+.container-opponent {
+  text-align: center;
+  margin-top: 1%;
+}
+.container-opponent > briscola-card {
+  margin: 2%;
+}
+
+.container-briscola {
+  margin-top: 6%;
+  margin-left: 5%;
+}
+
+.container-player {
+  text-align: center;
+  margin-top: 7%;
+}
+.container-player > briscola-card {
+  margin: 2%;
+}
+

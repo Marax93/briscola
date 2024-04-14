@@ -1,0 +1,25 @@
+<div class="container-opponent">
+  <briscola-card
+    [imagePath]="'assets/neapolitan-cards/Carte_Napoletane_retro.jpg'"
+  ></briscola-card>
+  <briscola-card
+    [imagePath]="'assets/neapolitan-cards/Carte_Napoletane_retro.jpg'"
+  ></briscola-card>
+  <briscola-card
+    [imagePath]="'assets/neapolitan-cards/Carte_Napoletane_retro.jpg'"
+  ></briscola-card>
+</div>
+
+<div class="container-briscola">
+  <briscola-card
+    [imagePath]="'assets/neapolitan-cards/Carte_Napoletane_retro.jpg'"
+  ></briscola-card>
+</div>
+
+<div class="container-player">
+  <briscola-card
+    *ngFor="let card of [1, 2, 3]"
+    [imagePath]="getRandomImagePath()"
+    [applyHover]="true"
+  ></briscola-card>
+</div>
